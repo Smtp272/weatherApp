@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+</head>
+<body>
+<form method="post" action="/">
+    <label>City Name:
+        <input type="text" name="cityName">
+    </label>
+    <label>Units:
+        <select name="units">
+            <option value="imperial">Imperial</option>
+            <option value="metric" selected>Metric</option>
+            <option value="standard">Standard</option>
+        </select>
+    </label>
+    <button type="submit">Find</button>
+    <button type="submit" formaction="/current-location">My Location</button>
+
+</form>
+<br>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
